@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="selectimge"
+    tools:context=".Nameactivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleIMAGEVIEW"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:onClick="selectimge"
+        android:src="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:id="@+id/edittext5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circleimageview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginRight="-8dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/nextcir"
+        android:layout_width="240dp"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="83dp"
+        android:onClick="getname"
+        android:text="Next" />
+
+
+</RelativeLayout>

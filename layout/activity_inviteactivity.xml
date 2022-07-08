@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="registeruser"
+    tools:context=".inviteactivity">
+
+    <TextView
+        android:id="@+id/INVITE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+
+        android:text="XXXXXXX"
+        android:textColor="#101010"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/invitetext2"
+        android:layout_width="398dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/registerationbtns"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="259dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="114dp"
+        android:layout_toStartOf="@+id/INVITE"
+        android:layout_toLeftOf="@+id/INVITE"
+        android:gravity="center"
+        android:text="Save this invite code .Your friends will need it to join your circle"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/registerationbtns"
+        android:layout_width="249dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="83dp"
+        android:layout_marginBottom="217dp"
+        android:onClick="registeruser"
+        android:text="Register" />
+
+
+</RelativeLayout>

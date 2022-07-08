@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "802580040026",
+    "firebase_url": "https://swaroopbustracker.firebaseio.com",
+    "project_id": "swaroopbustracker",
+    "storage_bucket": "swaroopbustracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802580040026:android:c181be6a0283fc72088b63",
+        "android_client_info": {
+          "package_name": "com.example.swaroopbustracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802580040026-rhnsarkr11vg99p6td8svog4pqhfi2gt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS3gK-MaiXpBFlqPv8qMpnYy8Z-EAa9jU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802580040026-rhnsarkr11vg99p6td8svog4pqhfi2gt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
